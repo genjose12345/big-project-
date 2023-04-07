@@ -43,74 +43,56 @@ public class LoginController extends Login {
     
     @FXML
     private Label invalidLabel;
-    
-
-    @FXML
-    void cancelOnAction(ActionEvent event) 
-     {
-     /*
-     System.exit(0); 
-     //////////////////
-     Platform.exit();
-     ///////////////////////////
-     Stage stage = (stage) cancelButton.getScene().getWindow();
-     stage.close();
-     ////////////////////////////////////////////////////
-      User u = new User();
-      Node node = (Node) event.getSource();
-     Stage stage = (Stage) node.getScene().getWindow();
-     try {
-     Parent root = FXMLLoader.load(getClass().getClassLoader().getResource("LoginFXML.fxml"));
-   stage.setUserData(u); 
-    Scene scene = new Scene(root);
-    stage.setScene(scene);
-    
-    stage.close();
-    }
-    catch(Exception e)
-    {
-      System.out.println("hi");
-    }
-    ////////////////////////////////////
-    
-      FXMLLoader loader = new FXMLLoader(getClass().getResource("LoginFXML.fxml"));
-LoginController controller = loader.getController();
-controller.setStage(this.stage); 
-////////////////////////////////////////////////
-
-      
-       Node node = (Node) event.getSource();
-    Stage thisStage = (Stage) node.getScene().getWindow();
-    thisStage.close();
-
-       Stage thisStage = (Stage) cancelButton.getScene().getWindow()
-       stage.close()
-////////////////////////////////////////////////////////
-       /*
-       close program upon closeing 
-       */   
-       
-     }
 
     @FXML
     void loginOnAction(ActionEvent event) 
     {
-      /* 
-      try
+     String username = usernameField.getText();
+        String password = passwordField.getText();
+        boolean validCredentials = false;
+
+      try (BufferedReader reader = new BufferedReader(new FileReader("C:\\Users\\Erik Vasquez\\Documents\\user_credentials.csv"))) 
       {
-         String a = usernameTextField.getText();
-         String b = passwordTextField.getText();
-        // should check a data base to see if usernames matchs password  if not make label visvble and have them keep trying 
-        /* if(a.equals(retirves usernmae from database) && b.equals(retives the password from data base)&& (checks they both match to the same line they are saved on in the data base))
-         {
-            send thier ass to the main page
-         }
-         else
-         {
-            label.setVisiblity(true);
-         }
-         */
-      }
+            String line;
+            while ((line = reader.readLine()) != null) 
+          {
+                String[] parts = line.split(",");
+                if(parts.length == 2 && parts[0].equals(username) && parts[1].equals(password)) 
+             {
+                    validCredentials = true;
+                    break;
+             }
+          }
+        } 
+       catch (IOException e) 
+        {
+            e.printStackTrace();
+        }
+
+        if (validCredentials) 
+        {
+            try
+            {
+                Stage dashboardStage = new Stage();
+                FXMLLoader loader = new FXMLLoader(getClass().getResource("/dash3.fxml"));
+                AnchorPane root = loader.load();
+                Scene scene = new Scene(root);
+                dashboardStage.setScene(scene);
+                dashboardStage.setTitle("DashBoard");
+                dashboardStage.show();
+                loginStage.close();
+            } 
+            catch (IOException e) 
+            {
+                e.printStackTrace();
+            }
+        } 
+       else 
+       {
+         invalidLogin.setVisible(true);
+       }
+       
+    }
     
 
     @FXML

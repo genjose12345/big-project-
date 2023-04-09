@@ -1,7 +1,36 @@
 import javafx.fxml.FXML;
+import javafx.scene.control.Label;
+import javafx.scene.control.TextArea;
+import javafx.scene.control.TextField;
+import javafx.scene.shape.Circle;
+import javafx.scene.shape.Line;
+import javafx.event.ActionEvent;
+import javafx.scene.control.Alert;
+import javafx.scene.control.Alert;
+import javafx.scene.control.Alert.AlertType;
+import java.util.*;
+import java.io.*;
+import javafx.scene.control.Button;
+import java.util.ArrayList;
+import java.nio.file.*;
+import javafx.application.Application;
+import javafx.stage.Stage;
+import javafx.scene.Scene;
+import javafx.scene.Parent;
+import javafx.fxml.FXMLLoader;
+import java.io.IOException;
+import javafx.scene.Node;
+import javafx.scene.image.ImageView;
+///////////////////////////
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.BufferedWriter;
 import javafx.scene.control.MenuButton;
 import javafx.scene.control.MenuItem;
-import javafx.scene.control.TextField;
+
 
 public class AdminController {
 
@@ -36,26 +65,178 @@ public class AdminController {
     private TextField team10;
 
     @FXML
-    private MenuButton menuButton1;
-
-    @FXML
     private MenuItem menuItemAdd1;
 
     @FXML
     private MenuItem menuItemRemove1;
 
     @FXML
-    void menuButton11(ActionEvent event) {
+    private MenuItem menuItemAdd2;
+
+    @FXML
+    private MenuItem menuItemRemove2;
+
+    @FXML
+    private MenuItem menuItemAdd3;
+
+    @FXML
+    private MenuItem menuItemRemove3;
+
+    @FXML
+    private MenuItem menuItemAdd4;
+
+    @FXML
+    private MenuItem menuItemRemove4;
+
+    @FXML
+    private MenuItem menuItemAdd5;
+
+    @FXML
+    private MenuItem menuItemRemove5;
+
+    @FXML
+    private MenuItem menuItemAdd6;
+
+    @FXML
+    private MenuItem menuItemRemove6;
+
+    @FXML
+    private MenuItem menuItemAdd7;
+
+    @FXML
+    private MenuItem menuItemRemove7;
+
+    @FXML
+    private MenuItem menuItemAdd8;
+
+    @FXML
+    private MenuItem menuItemRemove8;
+
+    @FXML
+    private MenuItem menuItemAdd9;
+
+    @FXML
+    private MenuItem menuItemRemove9;
+
+    @FXML
+    private MenuItem menuItemAdd10;
+
+    @FXML
+    private MenuItem menuItemRemove10;
+
+    @FXML
+    private Button generateTournament;
+
+    @FXML
+    private Button resetTournament;
+
+    @FXML
+    void generate(ActionEvent event) {
 
     }
 
     @FXML
-    void menuItemAdd11(ActionEvent event) {
+    void menuItemAdd100(ActionEvent event) {
 
     }
 
     @FXML
-    void menuItemRemove11(ActionEvent event) {
+    void menuItemAdd22(ActionEvent event) {
+
+    }
+
+    @FXML
+    void menuItemAdd33(ActionEvent event) {
+
+    }
+
+    @FXML
+    void menuItemAdd44(ActionEvent event) {
+
+    }
+
+    @FXML
+    void menuItemAdd55(ActionEvent event) {
+
+    }
+
+    @FXML
+    void menuItemAdd66(ActionEvent event) {
+
+    }
+
+    @FXML
+    void menuItemAdd77(ActionEvent event) {
+
+    }
+
+    @FXML
+    void menuItemAdd88(ActionEvent event) {
+
+    }
+
+    @FXML
+    void menuItemAdd99(ActionEvent event) {
+
+    }
+
+    @FXML
+    void menuItemRemove1(ActionEvent event) {
+
+    }
+
+    @FXML
+    void menuItemRemove100(ActionEvent event) {
+
+    }
+
+    @FXML
+    void menuItemRemove22(ActionEvent event) {
+
+    }
+
+    @FXML
+    void menuItemRemove33(ActionEvent event) {
+
+    }
+
+    @FXML
+    void menuItemRemove44(ActionEvent event) {
+
+    }
+
+    @FXML
+    void menuItemRemove55(ActionEvent event) {
+
+    }
+
+    @FXML
+    void menuItemRemove66(ActionEvent event) {
+
+    }
+
+    @FXML
+    void menuItemRemove77(ActionEvent event) {
+
+    }
+
+    @FXML
+    void menuItemRemove88(ActionEvent event) {
+
+    }
+
+    @FXML
+    void menuItemRemove99(ActionEvent event) {
+
+    }
+
+    @FXML
+    void menuItemadd11(ActionEvent event) {
+
+    }
+
+    @FXML
+    void reset(ActionEvent event) {
 
     }
 

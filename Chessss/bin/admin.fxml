@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="anchorpane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="545.0" prefWidth="604.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Admin.adminController">
+   <children>
+      <BorderPane layoutX="200.0" layoutY="60.0" prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="-92.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <top>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="87.0" prefWidth="598.0" style="-fx-background-color: #063971;" BorderPane.alignment="CENTER">
+               <children>
+                  <Label alignment="CENTER" layoutX="14.0" layoutY="14.0" prefHeight="27.0" prefWidth="69.0" text="ADMIN" textFill="WHITE">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+         </top>
+         <left>
+            <VBox spacing="17.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Label text="Teams Names:">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="team1" promptText="Add Team Name" />
+                  <TextField fx:id="team2" layoutX="10.0" layoutY="52.0" promptText="Add Team Name" />
+                  <TextField fx:id="team3" layoutX="10.0" layoutY="52.0" promptText="Add Team Name" />
+                  <TextField fx:id="team4" layoutX="10.0" layoutY="52.0" promptText="Add Team Name" />
+                  <TextField fx:id="team5" layoutX="10.0" layoutY="52.0" promptText="Add Team Name" />
+                  <TextField fx:id="team6" layoutX="10.0" layoutY="52.0" promptText="Add Team Name" />
+                  <TextField fx:id="team7" layoutX="10.0" layoutY="92.0" promptText="Add Team Name" />
+                  <TextField fx:id="team8" layoutX="10.0" layoutY="132.0" promptText="Add Team Name" />
+                  <TextField fx:id="team9" layoutX="10.0" layoutY="172.0" promptText="Add Team Name" />
+                  <TextField fx:id="team10" layoutX="10.0" layoutY="390.0" promptText="Add Team Name" />
+               </children>
+            </VBox>
+         </left>
+         <center>
+            <VBox prefHeight="626.0" prefWidth="200.0" spacing="17.0" translateY="43.0" BorderPane.alignment="CENTER">
+               <children>
+                  <MenuButton fx:id="menuButton1" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" text="Update">
+                     <items>
+                        <MenuItem fx:id="menuItemAdd1" mnemonicParsing="false" onAction="#menuItemAdd1" text="Add Team" />
+                        <MenuItem fx:id="menuItemRemove1" mnemonicParsing="false" onAction="#menuItemRemove1" text="Remove Team" />
+                     </items>
+                  </MenuButton>
+                  <MenuButton fx:id="menuButton2" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" text="Update">
+                     <items>
+                        <MenuItem fx:id="menuItemAdd2" mnemonicParsing="false" onAction="#menuItemAdd2" text="Add Team" />
+                        <MenuItem fx:id="menuItemRemove2" mnemonicParsing="false" onAction="#menuItemRemove2" text="Remove Team" />
+                     </items>
+                  </MenuButton>
+                  <MenuButton fx:id="menuButton3" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" text="Update">
+                     <items>
+                        <MenuItem fx:id="menuItemAdd3" mnemonicParsing="false" onAction="#menuItemAdd3" text="Add Team" />
+                        <MenuItem fx:id="menuItemRemove3" mnemonicParsing="false" onAction="#menuItemRemove3" text="Remove Team" />
+                     </items>
+                  </MenuButton>
+                  <MenuButton fx:id="menuButton4" layoutX="10.0" layoutY="35.0" mnemonicParsing="false" text="Update">
+                     <items>
+                        <MenuItem fx:id="menuItemAdd4" mnemonicParsing="false" onAction="#menuItemAdd4" text="Add Team" />
+                        <MenuItem fx:id="menuItemRemove4" mnemonicParsing="false" onAction="#menuItemRemove4" text="Remove Team" />
+                     </items>
+                  </MenuButton>
+                  <MenuButton fx:id="menuButton5" layoutX="10.0" layoutY="35.0" mnemonicParsing="false" text="Update">
+                     <items>
+                        <MenuItem fx:id="menuItemAdd5" mnemonicParsing="false" onAction="#menuItemAdd5" text="Add Team" />
+                        <MenuItem fx:id="menuItemRemove5" mnemonicParsing="false" onAction="#menuItemRemove5" text="Remove Team" />
+                     </items>
+                  </MenuButton>
+                  <MenuButton fx:id="menuButton6" layoutX="10.0" layoutY="60.0" mnemonicParsing="false" text="Update">
+                     <items>
+                        <MenuItem fx:id="menuItemAdd6" mnemonicParsing="false" onAction="#menuItemAdd6" text="Add Team" />
+                        <MenuItem fx:id="menuItemRemove6" mnemonicParsing="false" onAction="#menuItemRemove6" text="Remove Team" />
+                     </items>
+                  </MenuButton>
+                  <MenuButton fx:id="menuButton7" layoutX="10.0" layoutY="60.0" mnemonicParsing="false" text="Update">
+                     <items>
+                        <MenuItem fx:id="menuItemAdd7" mnemonicParsing="false" onAction="#menuItemAdd7" text="Add Team" />
+                        <MenuItem fx:id="menuItemRemove7" mnemonicParsing="false" onAction="#menuItemRemove7" text="Remove Team" />
+                     </items>
+                  </MenuButton>
+                  <MenuButton fx:id="menuButton8" layoutX="10.0" layoutY="60.0" mnemonicParsing="false" text="Update">
+                     <items>
+                        <MenuItem fx:id="menuItemAdd8" mnemonicParsing="false" onAction="#menuItemAdd8" text="Add Team" />
+                        <MenuItem fx:id="menuItemRemove8" mnemonicParsing="false" onAction="#menuItemRemove8" text="Remove Team" />
+                     </items>
+                  </MenuButton>
+                  <MenuButton fx:id="menuButton9" layoutX="10.0" layoutY="35.0" mnemonicParsing="false" text="Update">
+                     <items>
+                        <MenuItem fx:id="menuItemAdd9" mnemonicParsing="false" onAction="#menuItemAdd9" text="Add Team" />
+                        <MenuItem fx:id="menuItemRemove9" mnemonicParsing="false" onAction="#menuItemRemove9" text="Remove Team" />
+                     </items>
+                  </MenuButton>
+                  <MenuButton fx:id="menuButton10" layoutX="10.0" layoutY="346.0" mnemonicParsing="false" text="Update">
+                     <items>
+                        <MenuItem fx:id="menuItemAdd10" mnemonicParsing="false" onAction="#menuItemAdd10" text="Add Team" />
+                        <MenuItem fx:id="menuItemRemove10" mnemonicParsing="false" onAction="#menuItemRemove10" text="Remove Team" />
+                     </items>
+                  </MenuButton>
+               </children>
+            </VBox>
+         </center>
+         <right>
+            <AnchorPane prefHeight="505.0" prefWidth="377.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Button fx:id="generateTournament" layoutX="242.0" layoutY="2.0" mnemonicParsing="false" onAction="#generate" text="Generate Tournament" />
+                  <Button fx:id="resetTournament" layoutX="263.0" layoutY="389.0" mnemonicParsing="false" onAction="#reset" text="Reset Tournament" />
+               </children>
+            </AnchorPane>
+         </right>
+      </BorderPane>
+   </children>
+</AnchorPane>

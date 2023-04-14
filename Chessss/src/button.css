@@ -1,0 +1,16 @@
+.nav-btn {
+  -fx-background-color: transparent;
+  -fx-cursor: hand;
+  -fx-font-size: 14px;
+  -fx-font-family: "Arial";
+  -fx-text-fill: #fff;
+  -fx-alignment: center-left;
+}
+
+.nav-btn:hover {
+  -fx-background-color: #1e4c7f;
+}
+
+.nav-btn:selected {
+  -fx-background-color: #1e4c7f;
+}

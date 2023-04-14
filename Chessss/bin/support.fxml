@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?fxml version="1.0" encoding="UTF-8"?>
+<?fxml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.web.WebView?>
+
+<AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="800.0" prefWidth="1056.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="support.supportController">
+   <children>
+      <Label layoutX="389.0" layoutY="60.0" prefHeight="47.0" text="Chess Support" textAlignment="JUSTIFY">
+         <font>
+            <Font name="Arial Black" size="33.0" />
+         </font>
+      </Label>
+      <Label layoutX="443.0" layoutY="102.0" prefHeight="20.0" text="We're here to help.">
+         <font>
+            <Font name="Arial Black" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="207.0" layoutY="382.0" prefHeight="66.0" prefWidth="119.0" text="Find answers to your chess questions." textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Label>
+      <Button layoutX="441.0" layoutY="474.0" mnemonicParsing="false" onAction="#contactsOnAction" prefHeight="50.0" prefWidth="170.0" text="Contact">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Label layoutX="207.0" layoutY="187.0" prefHeight="20.0" text="Questions?">
+         <font>
+            <Font name="Arial Black" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="477.0" layoutY="185.0" text="Contact">
+         <font>
+            <Font name="Arial Black" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="435.0" layoutY="396.0" prefHeight="38.0" prefWidth="170.0" text="Get in contact with experts." textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="getSupport" layoutX="181.0" layoutY="474.0" mnemonicParsing="false" onAction="#getSupportOnAction" prefHeight="50.0" prefWidth="170.0" text="Get Support">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <WebView id="video" fx:id="video" layoutX="646.0" layoutY="193.0" prefHeight="205.0" prefWidth="278.0" />
+      <Label layoutX="722.0" layoutY="416.0" text="Tutorial and guide">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

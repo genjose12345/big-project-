@@ -131,9 +131,81 @@ public class AdminController {
     private Button resetTournament;
 
     @FXML
-    void generate(ActionEvent event) {
+    void generate(ActionEvent event) 
+    {
+        /*
+     int tmp = (int) ( Math.random() * 2 + 1);
+     boolean file = false;
+     int team1 = 0;
+     int team2 = 0;
+     int team3 = 0;
+     int team4 = 0;
+     int team5 = 0;
+     int team6 = 0;
+     int team7 = 0;
+     int team8 = 0;
+     int team9 = 0;
+     int team10 = 0;   
+     try
+     {
+               String team11 = team1.getText();
+               String team22 = team2.getText();
+               String team33 = team3.getText();
+               String team44 = team4.getText();
+               String team55 = team5.getText();
+               String team66 = team6.getText();
+               String team77 = team7.getText();
+               String team88 = team8.getText();
+               String team99 = team9.getText();
+               String team100 = team10.getText();
+     if(file == true)
+      {
+        BufferedWriter writer = new BufferedWriter(
+        writer("NotUnsecureduserdata.txt", true));
+        writer.append("\n" + checker);
+        writer.close();
+      }
+      else
+      {
+        BufferedWriter writer = new BufferedWriter(new FileWriter("NotUnsecureduserdata.txt", true));
+        writer.append(checker + "\n");
+        writer.close();
+                                                       
+      }
+     }
+     catch (IOException e) 
+           {
+               e.printStackTrace();
+           }
 
     }
+    while(week != 9)
+    {
+        team1 = tmp = (int) ( Math.random() * 2 + 1);
+        team2 = tmp = (int) ( Math.random() * 2 + 1);
+        team3 = tmp = (int) ( Math.random() * 2 + 1);
+        team4 = tmp = (int) ( Math.random() * 2 + 1);
+        team5 = tmp = (int) ( Math.random() * 2 + 1);
+        team6 = tmp = (int) ( Math.random() * 2 + 1);
+        team7 = tmp = (int) ( Math.random() * 2 + 1);
+        team8 = tmp = (int) ( Math.random() * 2 + 1);
+        int week = 0;
+        week++;
+        System.out.println(team1);
+        System.out.println(team2);
+        System.out.println(team3);
+        System.out.println(team4);
+        System.out.println(team5);
+        System.out.println(team6);
+        System.out.println(team7);
+        System.out.println(team8);
+        System.out.println(team9);    
+        System.out.println(team10);
+        //write to state page week
+    }
+    
+    
+    */
 
     @FXML
     void menuItemAdd100(ActionEvent event) {

@@ -33,61 +33,244 @@ import javafx.scene.control.MenuItem;
 
 public class RoundOneController {
 
-    @FXML
-    private Label team2;
+        @FXML
+    private Label teamvTeam1;
 
     @FXML
-    private Label team3;
+    private Label teamvTeam2;
 
     @FXML
-    private Label team4;
+    private Label teamvTeam3;
 
     @FXML
-    private Label team5;
+    private Label teamvTeam4;
 
     @FXML
-    private Label team6;
+    private Label teamvTeam5;
 
     @FXML
-    private Label team7;
+    private Label teamvTeam6;
 
     @FXML
-    private Label team8;
+    private Label teamvTeam7;
 
     @FXML
-    private Label team10;
+    private Label teamvTeam8;
 
     @FXML
-    private Label team9;
+    private Label teamvTeam9;
 
     @FXML
-    private Label team1;
+    private Label teamvTeam10;
 
     @FXML
-    private Label tbd1;
+    private Label teamvTeam11;
 
     @FXML
-    private Label tbd2;
+    private Label teamvTeam12;
 
     @FXML
-    private Label tbd3;
+    private Label teamvTeam13;
 
     @FXML
-    private Label tbd4;
+    private Label teamvTeam14;
 
     @FXML
-    private Label tbd7;
+    private Label teamvTeam15;
 
     @FXML
-    private Label tbd6;
+    private Label teamvTeam16;
 
     @FXML
-    private Label tbd5;
+    private Label teamvTeam17;
 
     @FXML
-    private Label tbd8;
+    private Label teamvTeam18;
 
     @FXML
-    private Label tbd9;
+    private Label teamvTeam19;
+
+    @FXML
+    private Label teamvTeam20;
+
+    @FXML
+    private Label teamvTeam21;
+
+    @FXML
+    private Label teamvTeam22;
+
+    @FXML
+    private Label teamvTeam23;
+
+    @FXML
+    private Label teamvTeam24;
+
+    @FXML
+    private Label teamvTeam25;
+
+    @FXML
+    private Label teamvTeam26;
+
+    @FXML
+    private Label teamvTeam27;
+
+    @FXML
+    private Label teamvTeam28;
+
+    @FXML
+    private Label teamvTeam29;
+
+    @FXML
+    private Label teamvTeam30;
+
+    @FXML
+    private Label teamvTeam31;
+
+    @FXML
+    private Label teamvTeam32;
+
+    @FXML
+    private Label teamvTeam33;
+
+    @FXML
+    private Label teamvTeam34;
+
+    @FXML
+    private Label teamvTeam35;
+
+    @FXML
+    private Label teamvTeam36;
+
+    @FXML
+    private Label teamvTeam37;
+
+    @FXML
+    private Label teamvTeam38;
+
+    @FXML
+    private Label teamvTeam39;
+
+    @FXML
+    private Label teamvTeam40;
+
+    @FXML
+    private Label teamvTeam41;
+
+    @FXML
+    private Label teamvTeam42;
+
+    @FXML
+    private Label teamvTeam43;
+
+    @FXML
+    private Label teamvTeam44;
+
+    @FXML
+    private Label teamvTeam45;
+
+    @FXML
+    private Label teamvTeam46;
+
+    @FXML
+    private Label teamvTeam47;
+
+    @FXML
+    private Label teamvTeam48;
+
+    @FXML
+    private Label teamvTeam49;
+
+    @FXML
+    private Label teamvTeam50;
+
+    @FXML
+    private Label teamvTeam51;
+
+    @FXML
+    private Label teamvTeam52;
+
+    @FXML
+    private Label teamvTeam53;
+
+    @FXML
+    private Label teamvTeam54;
+
+    @FXML
+    private Label teamvTeam55;
+
+    @FXML
+    private Label teamvTeam56;
+
+    @FXML
+    private Label teamvTeam57;
+
+    @FXML
+    private Label teamvTeam58;
+
+    @FXML
+    private Label teamvTeam59;
+
+    @FXML
+    private Label teamvTeam60;
+
+    @FXML
+    private Label teamvTeam61;
+
+    @FXML
+    private Label teamvTeam62;
+
+    @FXML
+    private Label teamvTeam63;
+
+    @FXML
+    private Label teamvTeam64;
+
+    @FXML
+    private Label teamvTeam65;
+
+    @FXML
+    private Label teamvTeam66;
+
+    @FXML
+    private Label teamvTeam67;
+
+    @FXML
+    private Label teamvTeam68;
+
+    @FXML
+    private Label teamvTeam69;
+
+    @FXML
+    private Label teamvTeam70;
+
+    @FXML
+    private Label teamvTeam71;
+
+    @FXML
+    private Label teamvTeam72;
+
+    @FXML
+    private Label teamvTeam73;
+
+    @FXML
+    private Label teamvTeam74;
+
+    @FXML
+    private Label teamvTeam75;
+
+    @FXML
+    private Label teamvTeam76;
+
+    @FXML
+    private Label teamvTeam77;
+
+    @FXML
+    private Label teamvTeam78;
+
+    @FXML
+    private Label teamvTeam79;
+
+    @FXML
+    private Label teamvTeam80;
 
 }

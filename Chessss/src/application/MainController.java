@@ -3,6 +3,8 @@ package application;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
+
+import dashBoard.dashController;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -31,8 +33,11 @@ public class MainController {
     @FXML
     private Label invalidLogin;
 
-
     private Stage loginStage;
+    
+    public String username;
+    
+    private boolean isAdmin;
 
     public void setLoginStage(Stage loginStage) {
         this.loginStage = loginStage;
@@ -70,15 +75,16 @@ public class MainController {
             try {
                 Stage dashboardStage = new Stage();
                 FXMLLoader loader;
-
-                // Load different UI for admin user
                 if (username.equals("ADMIN") && password.equals("ADMIN")) {
-                    loader = new FXMLLoader(getClass().getResource("/admin.fxml"));
+                    loader = new FXMLLoader(getClass().getResource("/dash3.fxml"));
+                    isAdmin = true;
                 } else {
                     loader = new FXMLLoader(getClass().getResource("/dash3.FXML"));
                 }
-
                 AnchorPane root = loader.load();
+                dashController controller = loader.getController();
+                controller.initialize(this, username);
+
                 Scene scene = new Scene(root);
                 dashboardStage.setScene(scene);
                 dashboardStage.setTitle("DashBoard");
@@ -111,6 +117,15 @@ public class MainController {
             e.printStackTrace();
         }
     }
+	public boolean isAdmin() {
+		return isAdmin;
+	}
+	public void setAdmin(boolean isAdmin) {
+		this.isAdmin = isAdmin;
+	}
+	public void getUsername() {
+	    username = usernameField.getText();
+	}
 
 
     

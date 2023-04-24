@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1056.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dashBoard.statsController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="660.0" layoutX="60.0" layoutY="46.0" stroke="BLACK" strokeType="INSIDE" width="958.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#063971" height="44.0" layoutX="60.0" layoutY="46.0" stroke="BLACK" strokeType="INSIDE" width="958.0" />
+      <Label layoutX="71.0" layoutY="49.0" prefHeight="35.0" prefWidth="303.0" text="Rankings..." textFill="WHITE">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label fx:id="rank1" layoutX="79.0" layoutY="109.0" prefHeight="17.0" prefWidth="466.0" />
+      <Label fx:id="rank2" layoutX="79.0" layoutY="154.0" prefHeight="17.0" prefWidth="498.0" />
+      <Label fx:id="rank3" layoutX="79.0" layoutY="205.0" prefHeight="17.0" prefWidth="498.0" />
+      <Label fx:id="rank4" layoutX="79.0" layoutY="259.0" prefHeight="17.0" prefWidth="498.0" />
+      <Label fx:id="rank5" layoutX="79.0" layoutY="326.0" prefHeight="17.0" prefWidth="498.0" />
+      <Label fx:id="rank6" layoutX="79.0" layoutY="392.0" prefHeight="17.0" prefWidth="490.0" />
+      <Label fx:id="rank7" layoutX="79.0" layoutY="450.0" prefHeight="17.0" prefWidth="490.0" />
+      <Label fx:id="rank8" layoutX="79.0" layoutY="503.0" prefHeight="17.0" prefWidth="498.0" />
+      <Label fx:id="rank9" layoutX="79.0" layoutY="558.0" prefHeight="17.0" prefWidth="498.0" />
+      <Label fx:id="rank10" layoutX="79.0" layoutY="604.0" prefHeight="17.0" prefWidth="498.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.web.WebView?>
+
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1056.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="support.supportController">
+  <content>
+    <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="0.0" minWidth="0.0" prefHeight="1410.0" prefWidth="1041.0">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="744.0" layoutX="61.0" layoutY="47.0" stroke="BLACK" strokeType="INSIDE" width="919.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#063971" height="44.0" layoutX="62.0" layoutY="47.0" stroke="BLACK" strokeType="INSIDE" width="918.0" />
+            <Label layoutX="77.0" layoutY="51.0" prefHeight="36.0" prefWidth="341.0" text="Frequently Asked Questions..." textFill="WHITE">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+            <Label layoutX="130.0" layoutY="128.0" prefHeight="23.0" prefWidth="302.0" text="How are teams selected for the tournament?" />
+            <Label layoutX="77.0" layoutY="113.0" text="Q.">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Label>
+            <Label layoutX="79.0" layoutY="195.0" text="A.">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Label>
+            <Line endX="339.0" layoutX="231.0" layoutY="180.0" startX="-100.0" />
+            <Label layoutX="131.0" layoutY="192.0" prefHeight="59.0" prefWidth="757.0" text="Teams are selected based on their registration and availability for the tournament. If more than 10 teams register, they will be chosen on a first-come, first-served basis." wrapText="true" />
+            <Label layoutX="132.0" layoutY="297.0" prefHeight="23.0" prefWidth="302.0" text="How are matches scheduled?" />
+            <Label layoutX="79.0" layoutY="282.0" text="Q.">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Label>
+            <Label layoutX="81.0" layoutY="364.0" text="A.">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Label>
+            <Line endX="339.0" layoutX="233.0" layoutY="349.0" startX="-100.0" />
+            <Label layoutX="133.0" layoutY="361.0" prefHeight="59.0" prefWidth="757.0" text="Matches are scheduled using the tournament management system. A schedule is generated automatically, and matches are assigned based on the availability of teams and tournament officials" wrapText="true" />
+            <Label layoutX="132.0" layoutY="465.0" prefHeight="23.0" prefWidth="302.0" text="How do I view the tournament schedule and results?" />
+            <Label layoutX="79.0" layoutY="450.0" text="Q.">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Label>
+            <Label layoutX="81.0" layoutY="532.0" text="A.">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Label>
+            <Line endX="339.0" layoutX="233.0" layoutY="517.0" startX="-100.0" />
+            <Label layoutX="133.0" layoutY="529.0" prefHeight="59.0" prefWidth="757.0" text="The tournament schedule and results are available on the &quot;Stats&quot; page. Simply navigate to the appropriate section on the appliction to view." wrapText="true" />
+            <Label layoutX="134.0" layoutY="638.0" prefHeight="23.0" prefWidth="443.0" text="Do I need to know how to play chess to participate in the tournament?" />
+            <Label layoutX="81.0" layoutY="623.0" text="Q.">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Label>
+            <Label layoutX="83.0" layoutY="705.0" text="A.">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Label>
+            <Line endX="339.0" layoutX="235.0" layoutY="690.0" startX="-100.0" />
+            <Label layoutX="135.0" layoutY="702.0" prefHeight="59.0" prefWidth="757.0" text="Yes, all participants should have a basic understanding of how to play chess. If you are new to the game, there are many online resources available to help you learn the rules and strategies of chess. Here is a video by &quot;Chess.com&quot; providing basic rules of Chess." wrapText="true" />
+            <WebView id="video" fx:id="video" layoutX="14.0" layoutY="800.0" prefHeight="556.0" prefWidth="1015.0" AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="12.0" AnchorPane.topAnchor="800.0" />
+         </children></AnchorPane>
+  </content>
+</ScrollPane>
